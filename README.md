@@ -4,6 +4,9 @@ Credit default prediction is central to managing risk in a consumer lending busi
 
 In this notebook, I will use machine learning to predict credit default. I will leverage an industrial scale data set to build a machine learning model that challenges the current model in production. Training, validation, and testing datasets include time-series behavioral data and anonymized customer profile information.
 
+The dataset is from Kaggle:
+https://www.kaggle.com/competitions/amex-default-prediction
+
 The objective is to predict the probability that a customer does not pay back their credit card balance amount in the future based on their monthly customer profile. The target binary variable is calculated by observing 18 months performance window after the latest credit card statement, and if the customer does not pay due amount in 120 days after their latest statement date it is considered a default event.
 
 The dataset contains aggregated profile features for each customer at each statement date. Features are anonymized and normalized, and fall into the following general categories:
